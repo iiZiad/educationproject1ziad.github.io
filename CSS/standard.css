@@ -81,12 +81,9 @@ header {
     * {
         width : 100%;
     }
-    .listItems:hover {
-
-    }
     header {
         display : block;
-        padding : 10px;
+        padding : 10px 10px 15px 10px;
     }
     .headerPart1{
         text-align : center;
@@ -96,13 +93,14 @@ header {
     .listItems {
         font-size : 8px;
         transition : 0.4s;
-        padding-left : 0px;
+        padding: 10px;
+        margin : 0 ;
     }
     .headerList {
         display :flex;
         text-align : center;
         justify-content : space-between;
-        padding-left : 0px
+        padding-left : 0px;
     }
     .footerRow1 {
         display : block;
@@ -117,7 +115,8 @@ header {
         font-size : 15px;
     }
     .f2 {
-        font-size : 20px;
+        font-size : 25px;
+        
     }
     .f3 {
         border-left : none;
@@ -139,8 +138,5 @@ header {
     }
         .headerPart1{
         font-size : 15px;
-    }
-        .listItems:hover {
-
     }
 }
