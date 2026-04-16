@@ -1,0 +1,56 @@
+
+.tableHeader , .tablediv{
+    margin : 10px 100px 0px 100px;
+}
+.tableHeader {
+    display:flex;
+    justify-content : space-between;
+    padding : 20px 30px;
+    border-top-right-radius : 10px; 
+    border-top-left-radius : 10px; 
+    color : white;
+    background-color :rgb(156, 156, 156)
+}
+table td{
+    border-spacing : 0px;
+    border : solid rgb(214, 214, 214) 1px;
+}
+.col1,.col2,.col3,.col4{
+    padding : 10px;
+}
+.col1 {
+    width : 25%;
+}
+.col2 {
+    width : 30%;
+}
+.col3 {
+    width : 15%;
+    text-align:center;
+}
+.col4 {
+    width : 30%;
+}
+.tablediv {
+    align-items:center;
+}
+@media screen and (min-width : 320px) and (max-width : 768px){
+    .tableHeader , .tablediv{
+        margin : 0px;
+        font-size : 10px;
+    }
+    .tableHeader {
+        padding : 10px;
+        
+    }
+    main {
+        padding :20px;
+    }
+    .col1,.col2,.col3,.col4{
+        font-size : 7px;
+        padding : 5px;
+    }
+    table {
+        width: 100%;
+    }
+}

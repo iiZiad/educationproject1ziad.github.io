@@ -1,0 +1,101 @@
+*{
+    box-sizing : border-box;
+}
+.addnewform{
+    display:flex;
+    align-items :center;
+}
+input {
+    background-color : rgb(248, 248, 248);
+    padding : 10px;
+    border : none;
+}
+.titleform {
+    display : inline-block;
+    text-align : center;
+    padding : 20px 30px;
+    border-top-right-radius : 10px; 
+    border-top-left-radius : 10px; 
+    color : white;
+    background-color : rgb(43, 95, 141);
+    margin-top: 50px;
+}
+.titleform,.r1,.r2,textarea ,.sbmt {
+    width : 60%;
+    margin-left:20%;
+}
+.r1 ,.r2 {
+    padding : 10px;
+    display: flex;
+    justify-content : space-between;
+    align-items : center;
+}
+.r1 * ,.r2 *{
+    margin : 5px;
+}
+.r1 label{
+    width : 20%;
+} 
+.r1 input{
+    width : 75%;
+    background-color : rgb(248, 248, 248);
+    padding : 10px;
+    border : none;
+} 
+.r2 .label1{
+    width : 20%;
+}
+.r2 .input1{
+    width : 30%;
+}
+.r2 .label2{
+    width : 30%;
+}
+.r2 .input2{
+    width : 20%;
+}
+textarea{
+    height : 200px;
+    overflow :scroll;
+    overflow-x:hidden;
+    resize : none;
+    padding : 20px;
+    border-radius : 10px;
+    border : none ;
+    background-color : rgb(248, 248, 248);
+}
+.sbmt {
+    background-color : rgb(43, 95, 141);
+    padding : 20px;
+    color : white;
+    border-bottom-right-radius : 10px; 
+    border-bottom-left-radius : 10px; 
+    transition : 0.5s;
+}
+.sbmt:hover {
+   background-color :rgb(156, 156, 156);
+}
+.container {
+    display :flex;
+}
+.small {
+    display : none; 
+    padding : 10px;
+}
+@media screen and (min-width : 320px) and (max-width : 628px){
+    .titleform,.r1,.r2,textarea ,.sbmt ,.small{
+        width : 90%;
+        margin-left:5%;
+        font-size : 15px;
+    }
+    .r2 {
+        display : none;
+    }
+    .small {
+        display : flex;
+        flex-direction :column;  
+    }
+    .small div{
+        width: 100%;
+    }
+}
