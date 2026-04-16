@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="fontawesome-free-7.2.0-web\css\all.min.css">
         <link rel="stylesheet" href="lineicons-5.1-free\free-regular-font\lineicons-free.css">
-        <link rel="stylesheet" href="CSS\home.css">
+        <link rel="stylesheet" href="CSS\addnewcoursecss.css">
         <link rel="stylesheet" href="CSS\standard.css">
     </head>
     <body>
@@ -16,7 +16,7 @@
             </div>
             <nav class="headerPart2">
                 <ul class="headerList">
-                    <a href="index.html"><li class="listItems">Home</li> 
+                    <a href="index.html"><li class="listItems">Home</li></a> 
                     <a href="mycourses.html"><li class="listItems">My Courses</li></a>
                     <a href="addnewcourse.html"><li class="listItems">Add Courses</li></a>
                     <a href="contactus.html"><li class="listItems">Contact us</li></a>
@@ -24,29 +24,31 @@
             </nav>
         </header>
         <main>
-        <section class="part1">
-            <div class="overlay">
-                <div class="words">
-                    <h1 class="atitle">
-                            Best Way for <span class="highlighted">Education</span> 
-                    </h1>
-                    <p class="aword">
-                        We provide best learn resourses <br> to make next 
-                       generation that can lead the world to a better life
-                    </p>
-                </div>
-            </div>
-        </section>
-        <div class="why">
-            <div class="whyTitle">
-                <div class="whyTitleChild">Why us ?</div>
-            </div>
-            <div class="iconcontainer">
-                <div><i class="lni lni-dollar-circle"></i><br>Cost</div>
-                <div><i class="lni lni-laptop-phone"></i></i><br>reabilty</div>
-                <div><i class="lni lni-crown-3"></i></i><br>Valubale</div>
-            </div>
-        </div>
+            <div class="newform">
+                <form method="POST">
+                    <label class="titleform" name="Course name">Add New Course</label>
+                    <div class="r1">
+                        <label for="courseName">Course Name</label>
+                        <input name="course name" id="courseName" type="name" placeholder="Add course name">
+                    </div>
+                    <div class="r2">
+                        <label for="instName" class="label1">Instructot Name</label>
+                        <input id="instName" name="Instructor Name"class="input1" type="name" placeholder="Add course name">
+                        <label for="CH" class="label1">credit Hours</label>
+                        <input id="CH" name="Credit Hours" class="input2" type="number" placeholder="3">
+                    </div>
+                    <div class="small">
+                        <label for="instName" class="label1">Instructot Name</label>
+                        <input id="instName" name="Instructor Name"class="input1" type="name" placeholder="Add course name">
+                        <label for="CH" class="label1">credit Hours</label>
+                        <input id="CH" name="Credit Hours" class="in name="Credit Hours"put2" type="number" placeholder="3">
+                    </div>
+                    <div class="divtxtara">
+                        <textarea placeholder="Any Notes ?" id="txtara" name="Notes"></textarea>
+                    </div> 
+                    <input type="submit" value="Submit" class="sbmt">
+                </form>
+           </div>
         </main>
         <footer>
             <div class="footerRow1">
@@ -54,7 +56,7 @@
                 <i class="fa-solid fa-book-open"></i>
                 Educademy
                 </div>
-                <div class="f2">
+               <div class="f2">
                     <i class="lni lni-facebook"></i>
                     <i class="lni lni-youtube"></i>
                     <i class="lni lni-linkedin"></i>
